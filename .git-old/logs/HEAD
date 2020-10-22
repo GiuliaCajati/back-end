@@ -1,0 +1,20 @@
+0000000000000000000000000000000000000000 9017a2ef9f8c17b204888c3094427da122189389 NavPoint1 <foleym156@gmail.com> 1603130909 -0700	clone: from git@github.com:GiuliaCajati/back-end.git
+9017a2ef9f8c17b204888c3094427da122189389 4d1588677a9245062d6b1cae6a60396bfa130043 NavPoint1 <foleym156@gmail.com> 1603131004 -0700	pull: Fast-forward
+4d1588677a9245062d6b1cae6a60396bfa130043 1ed247609aac6132a4f224d4461d53ac9e730e40 NavPoint1 <foleym156@gmail.com> 1603131231 -0700	pull: Fast-forward
+1ed247609aac6132a4f224d4461d53ac9e730e40 245a9e3076707bb43391230bc130e1da50ce36f7 NavPoint1 <foleym156@gmail.com> 1603139251 -0700	commit: basic skateboard
+245a9e3076707bb43391230bc130e1da50ce36f7 d17c03c620389581bb6ef7ef1281578f285dfa2f NavPoint1 <foleym156@gmail.com> 1603146445 -0700	pull: Fast-forward
+d17c03c620389581bb6ef7ef1281578f285dfa2f c9631949a2fe9e53aaac8982a77ffab3f15eb574 NavPoint1 <foleym156@gmail.com> 1603163914 -0700	commit: organization
+c9631949a2fe9e53aaac8982a77ffab3f15eb574 145985bb7707f6a58e1bfc6eb81aeebc8d3bc8d9 NavPoint1 <foleym156@gmail.com> 1603208956 -0700	pull: Fast-forward
+145985bb7707f6a58e1bfc6eb81aeebc8d3bc8d9 af8ff6d1dc676ef92698929b741c556278bb72f1 NavPoint1 <foleym156@gmail.com> 1603213783 -0700	commit: new model working
+af8ff6d1dc676ef92698929b741c556278bb72f1 88143b44e8f8ba2dae9cbf7cf0f6b7b00ef830f4 NavPoint1 <foleym156@gmail.com> 1603220442 -0700	commit: completed dialogue cycle
+88143b44e8f8ba2dae9cbf7cf0f6b7b00ef830f4 aaab875d4fc30903bc267204eb610c164c79f941 NavPoint1 <foleym156@gmail.com> 1603224296 -0700	commit: user show
+aaab875d4fc30903bc267204eb610c164c79f941 9726af753679200e40b43e765aa111ff439ba1ac NavPoint1 <foleym156@gmail.com> 1603249198 -0700	pull: Fast-forward
+9726af753679200e40b43e765aa111ff439ba1ac 63dba2a45ce9a61bb4040c7cf5aca987b0396a2a NavPoint1 <foleym156@gmail.com> 1603298243 -0700	pull: Fast-forward
+63dba2a45ce9a61bb4040c7cf5aca987b0396a2a 63dba2a45ce9a61bb4040c7cf5aca987b0396a2a NavPoint1 <foleym156@gmail.com> 1603298396 -0700	checkout: moving from main to points-and-gifts
+63dba2a45ce9a61bb4040c7cf5aca987b0396a2a 0f688baa6691221fd775290bb4cfdb63dfaefa6d NavPoint1 <foleym156@gmail.com> 1603311249 -0700	commit: added gift system
+0f688baa6691221fd775290bb4cfdb63dfaefa6d 63dba2a45ce9a61bb4040c7cf5aca987b0396a2a NavPoint1 <foleym156@gmail.com> 1603311432 -0700	checkout: moving from points-and-gifts to main
+63dba2a45ce9a61bb4040c7cf5aca987b0396a2a 0f688baa6691221fd775290bb4cfdb63dfaefa6d NavPoint1 <foleym156@gmail.com> 1603311449 -0700	checkout: moving from main to points-and-gifts
+0f688baa6691221fd775290bb4cfdb63dfaefa6d 63dba2a45ce9a61bb4040c7cf5aca987b0396a2a NavPoint1 <foleym156@gmail.com> 1603311534 -0700	checkout: moving from points-and-gifts to main
+63dba2a45ce9a61bb4040c7cf5aca987b0396a2a 0f688baa6691221fd775290bb4cfdb63dfaefa6d NavPoint1 <foleym156@gmail.com> 1603311940 -0700	merge points-and-gifts: Fast-forward
+0f688baa6691221fd775290bb4cfdb63dfaefa6d aa3141d2d01f32589a5f15a6df65448275dba555 NavPoint1 <foleym156@gmail.com> 1603319808 -0700	commit: dialogue attempt 1
+aa3141d2d01f32589a5f15a6df65448275dba555 016f16aeb3a5c3776e3b0d56ecdd4948315f4633 NavPoint1 <foleym156@gmail.com> 1603321122 -0700	commit: fixed seed data question ids
