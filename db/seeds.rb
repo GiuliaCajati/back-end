@@ -32,9 +32,9 @@ pop_culture = Interest.create(
         [
             "WAP is so fetch()!",
             "Britney, stop trying to make fetch() happen.",
-            ".then let's see Cardi B when covid is over",
+            ".then let's see Cardi B when covid is over.",
             "Haven't heard of it.",
-            "ans4",
+            "I have to go. Dog's on fire.",
             -1,1,0,0,
             -100,
             0000
@@ -44,7 +44,7 @@ pop_culture = Interest.create(
             "Um..48 into 120?",
             "It's 40%. Well, 48 over 120 equals x over a 100 and then you cross multiply and get the value of x.",
             "Whatever, let's get cheese fries.",
-            "ans4",
+            "I gotta go, the game is starting.",
             0,-1,1,0,
             -100,
             0001
@@ -54,7 +54,7 @@ pop_culture = Interest.create(
             "So?",
             "Whatever. Those rules aren't real.",
             "Boo, you whore.",
-            "ans4",
+            "I gotta go early. Traffic's bad.",
             -1,0,1,0,
             -100,
             0002
@@ -74,7 +74,7 @@ pop_culture = Interest.create(
             "She's, like, really pretty.",
             "I love her. She's like a Martian!",
             "I like her wig. What's it made of?",
-            "I can't talk right now. I'm sick.",
+            "Can't talk right now. I'm working.",
             -1,1,0,0,
             7,
             0004
@@ -82,10 +82,10 @@ pop_culture = Interest.create(
         [
             "Why do you wear your hair like that? Your hair looks so sexy pushed back.",
             "I like it this way.",
-            "I always used to push it back but then in 11th grade...",
+            "All the barbers are closed because of covid.",
             "Thanks babe.",
-            "I can't talk right now. I'm sick.",
-            0,-1,1,0,
+            "Oh shit I left the oven on.",
+            0,0,1,0,
             15,
             0005
         ],
@@ -94,7 +94,7 @@ pop_culture = Interest.create(
             "I'll get my credit card...",
             "Good because that is the ugliest effing skirt I've ever seen.",
             "You're plastic. Cold, shiny, hard, plastic.",
-            "I can't talk right now. I'm sick.",
+            "I don't have enough time.",
             0,1,-1,0,
             3,
             0006
@@ -134,7 +134,7 @@ pop_culture = Interest.create(
             "Y-you too.",
             "My mom gave it to me.",
             "Britney, you're hard to talk to.",
-            "I can't talk right now. I'm sick.",
+            "Can't talk, boss is calling.",
             -1,-1,-1,0,
             -100,
             0012
@@ -218,7 +218,7 @@ zodiac = Interest.create(
             "He's gotta be an Aquarius.",
             "He's probably a Taurus.",
             "He's a Pisces, I can just tell.",
-            "Sorry, I haven't got time.",
+            "I gotta charge my phone.",
             0,-1,1,0,
             -100,
             2003
@@ -228,7 +228,7 @@ zodiac = Interest.create(
             "She's totally a Libra.",
             "Classic Scorpio.",
             "Such a Sagittarius.",
-            "Sorry, I haven't got time.",
+            "I lost my keys!",
             1,-1,0,0,
             1,
             2004
@@ -238,7 +238,7 @@ zodiac = Interest.create(
             "I know who you are. You're a Gemini.",
             "You're my Capricorn.",
             "Esmeralda you're an Aquarius.",
-            "Sorry, I haven't got time.",
+            "Where did I leave my jacket?",
             1,-1,-1,0,
             15,
             2005
@@ -248,7 +248,7 @@ zodiac = Interest.create(
             "Yeah I don't like her either.",
             "Yeah she can be stubborn.",
             "Yeah she seems really sensitive.",
-            "Sorry, I haven't got time.",
+            "Oh I forgot, she has my phone...",
             -1,-1,1,0,
             -100,
             2006
@@ -258,7 +258,7 @@ zodiac = Interest.create(
             "Probably an Aries.",
             "Only a Scorpio.",
             "A Gemini.",
-            "Sorry, I haven't got time.",
+            "Hey do you know where the bathroom is?",
             0,1,-1,0,
             3,
             2007
@@ -268,7 +268,7 @@ zodiac = Interest.create(
             "Capricorns are ruthless.",
             "Libras are ruthless.",
             "She's no Virgo, that's for sure.",
-            "Sorry, I haven't got time.",
+            "Is that cop giving me a ticket?",
             1,-1,1,0,
             3,
             2008
@@ -278,7 +278,7 @@ zodiac = Interest.create(
             "He's a Leo. Real sensitive.",
             "He's a Sagittarius. Never finishes what he starts.",
             "He's an Aries. So impulsive.",
-            "Sorry, I haven't got time.",
+            "Uhh Imma go ask him.",
             -1,1,0,0,
             7,
             2009
@@ -288,7 +288,7 @@ zodiac = Interest.create(
             "Huge Pisces.",
             "Dude's a Leo.",
             "Seems like a Taurus to me.",
-            "Sorry, I haven't got time.",
+            "I forgot, he owes me money. HEY CHAD!",
             -1,1,0,0,
             -100,
             2010
@@ -315,7 +315,7 @@ indie = Interest.create(
             "Fair trade sun-grown organic local beans!",
             "Fair trade shade-grown organic local beans!",
             "I don't think coffee can grow at this latitude.",
-            "ans4",
+            "I forgot, I'm late for an appointment.",
             -1,1,0,0,
             -100,
             3001
@@ -325,7 +325,7 @@ indie = Interest.create(
             "Brad",
             "Jasper",
             "Noam Chomsky",
-            "ans4",
+            "Gotta run! Grandma's on fire!",
             -1,0,1,0,
             3,
             3002
@@ -335,7 +335,7 @@ indie = Interest.create(
             "Ham sandwich.",
             "Avocado toast.",
             "Kale salad with prosciutto and figs.",
-            "ans4",
+            "I gotta go move my car.",
             -1,1,0,0,
             -100,
             3003
@@ -345,7 +345,7 @@ indie = Interest.create(
             "Have you tried the butternut squash soup?",
             "The aisles are too small.",
             "I prefer Wegman's.",
-            "ans4",
+            "I need to go move my laundry.",
             1,0,-1,0,
             -100,
             3004
@@ -355,7 +355,7 @@ indie = Interest.create(
             "It's a cute look.",
             "You mean mom jeans?",
             "I liked that style before it was cool.",
-            "ans4",
+            "I have to put coins in the meter.",
             0,-1,1,0,
             7,
             3005
@@ -363,9 +363,9 @@ indie = Interest.create(
         [
             "I'd like a tall soy-free soy dirty chai.",
             "I'll have the same.",
-            "I'll have an iced matcha green tea latte with almond milk. Skim almond milk.",
+            "I'll have an iced matcha green tea latte with almond milk. Uh, skim almond milk.",
             "I'll have a pumpkin spice latte.",
-            "ans4",
+            "I need to take this call.",
             0,1,-1,0,
             -100,
             3006
@@ -375,7 +375,7 @@ indie = Interest.create(
             "Movember is coming up...",
             "Like Freddie Mercury?",
             "I'm sorry I can't grow a mustache for you Veronica.",
-            "ans4",
+            "I'm gonna take out the compost.",
             1,-1,0,0,
             10,
             3007
@@ -385,7 +385,7 @@ indie = Interest.create(
             "Yas queen slayyy.",
             "Jon Snow was the rightful king though fr.",
             "Game of Thrones? I only like their old stuff.",
-            "ans4",
+            "I forgot to lock my bike.",
             0,-1,1,0,
             1,
             3008
@@ -393,9 +393,9 @@ indie = Interest.create(
         [
             "I once dumped a guy because his mustache sucked.",
             "Ya ok Veronica.",
-            "So... should I not grow a mustache then?",
+            "So... should I not grow the mustache then?",
             "Sorry for your loss.",
-            "ans4",
+            "Sorry, I didn't hear what you said.",
             0,0,0,0,
             15,
             3009
@@ -434,33 +434,23 @@ luxury = Interest.create(
     questions: JSON.unparse([
         [
             "I have been watching you for a time. You have a pleasing look about you... the sort of musculature that could make a woman swoon with desire.",
-            "ans1",
-            "ans2",
             "Begone, thot.",
-            "ans4",
-            1,0,-1,0,
-            -100,
-            5000
-        ],
-        [
-            "",
-            "ans1",
             "ans2",
             "ans3",
-            "ans4",
-            1,0,-1,0,
-            1,
-            5001
+            "Ight Imma head out.",
+            -1,0,1,0,
+            -100,
+            5000
         ],
         [
             "And what do you think of Victoria, hmm? Does her sharp beauty give you singular twinges of desire?",
             "ans1",
             "ans2",
             "Victoria, I've no time for your nonsense today.",
-            "ans4",
+            "I gotta meet with a client.",
             1,0,-1,0,
-            0,
-            5000
+            1,
+            5001
         ],
         [
             "I have noticed the type of man that you are. Intense, determined, strong... all the qualities I have grown to like most exist in you.",
@@ -470,7 +460,7 @@ luxury = Interest.create(
             "ans4",
             1,0,-1,0,
             7,
-            5000
+            5002
         ],
         [
             "I have toyed with your feelings unfairly, placing you down with others I have known... and you have not been like them. It was... wrong of me.",
@@ -480,7 +470,7 @@ luxury = Interest.create(
             "ans4",
             1,0,-1,0,
             15,
-            5000
+            5003
         ],
         [
             "Oh do not look at me in such a manner. Does your manhood wilt from thought of using knowledge of the erotic to survive in this world? Is it so terrible?",
@@ -489,18 +479,18 @@ luxury = Interest.create(
             "ans3",
             "ans4",
             1,0,-1,0,
-            -100,
-            5000
+            1,
+            5004
         ],
         [
             "Tell me... has there been anyone special to you? A thief of your heart?",
-            "Never",
+            "ans1",
             "ans2",
             "ans3",
             "ans4",
             1,0,-1,0,
             -100,
-            5000
+            5005
         ],
         [
             "Your heart is heavy with lust and burning desire... but shall it be mine or another's?",
@@ -509,8 +499,8 @@ luxury = Interest.create(
             "ans3",
             "ans4",
             1,0,-1,0,
-            3,
-            5000
+            1,
+            5006
         ],
         [
             "Do you ever entertain the notion of marriage? To commit to one person in all matters? It seems a bizarre internment to me.",
@@ -519,18 +509,8 @@ luxury = Interest.create(
             "ans3",
             "ans4",
             1,0,-1,0,
-            7,
-            5000
-        ],
-        [
-            "question1",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
-            0,
-            5000
+            3,
+            5007
         ],
     ])
 )
@@ -542,16 +522,16 @@ liberal_arts = Interest.create(
             "Want to join me for a visit to the MET today? They just opened the exhibit on “Goya’s Graphic Imagination”.",
             "What is Goya?",
             "Would love to, his distaste for intellectual oppression is renowned.",
-            "I would rather play Civ ",
+            "I would rather play Civ.",
             "Gotta run!",
             -1,1,-1,0,
-            0,
+            -100,
             6000
         ],
         [
             "Just finished the third edition of The Odyssey. The greek mythology, and fascinating themes are mind quenching.",
             "Is that the one where Romeo kills Juliet?",
-            "Ulysses is an exemplary model of heroism",
+            "Ulysses is an exemplary model of heroism.",
             "Have you read “Twilight”?",
             "Just got a phone call, got to go!",
             -1,1,-1,0,
@@ -561,16 +541,16 @@ liberal_arts = Interest.create(
         [
             "What is your favorite Shakespere tragedy?",
             "I found King Lear riveting.",
-            "Paradise lost is for sure my favorite",
-            "Poetry isn’t my thing",
+            "Paradise Lost is for sure my favorite.",
+            "Poetry isn’t my thing.",
             "Gotta go read a book!",
             1,-1,-1,0,
-            1,
+            -100,
             6002
         ],
         [
             "Have you finished reading that book I lent you, yet?",
-            "Dude, I don’t know you",
+            "Dude, I don’t know you.",
             "Yes, Malcolm Gladwell is a fantastic author!",
             "No, I had to finish season five of The Office.",
             "No I’m going to do that now, bye.",
@@ -580,12 +560,12 @@ liberal_arts = Interest.create(
         ],
         [
             "Who's your favorite heroine in Pride and Prejudice?",
-            "Definitely Kiera Knightley",
-            "Elizabeth Bennet, her playful disposition, and idealism is admirable",
-            "Mr. Bennet is pretty cool",
+            "Definitely Kiera Knightley.",
+            "Elizabeth Bennet, her playful disposition, and idealism is admirable.",
+            "Mr. Bennet is pretty cool.",
             "Gotta go get some coffee.",
             -1,1,-1,0,
-            1,
+            -100,
             6004
         ]
     ])
@@ -596,103 +576,73 @@ sports = Interest.create(
     questions: JSON.unparse([
         [
             "I lost my phone number. Can I have yours?",
-            "ans1",
+            "Here's my number... so call me, maybe.",
             "ans2",
             "ans3",
-            "ans4",
+            "I'm busy.",
             1,0,-1,0,
-            0,
+            1,
             7000
         ],
         [
-            "Hey, I just realized this, but you look a lot like my next girlfriend.",
-            "ans1",
+            "Does this pump make me look too swole?",
+            "I don't like your girlfriend. I think you need a new one.",
             "ans2",
             "ans3",
-            "ans4",
+            "Ttyl.",
             1,0,-1,0,
-            1,
+            -100,
             7001
         ],
         [
-            "swole",
-            "ans1",
+            "DTF?",
+            "Excuse me?",
             "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
-            0,
-            7000
+            "Boy you know I got that WAP.",
+            "Uh I have to go. I think my water just broke.",
+            0,-1,1,0,
+            1,
+            7002
         ],
         [
-            "mirin",
-            "ans1",
+            "I'm bout to watch the game and crack open a cold one with the boys.",
+            "Notice me senpai...",
             "ans2",
             "ans3",
-            "ans4",
-            1,0,-1,0,
-            0,
-            7000
+            "I have to go... it's too cold outside...",
+            -1,1,0,0,
+            -100,
+            7003
         ],
         [
-            "dtf",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
+            "Lemme slide into your DMs.",
+            "Here's my insta.",
+            "Here's my fb.",
+            "Here's my fetlife.",
+            "I'm late for a boulangerie appointment.",
             1,0,-1,0,
-            0,
-            7000
+            1,
+            7004
         ],
         [
-            "brotein shake",
-            "ans1",
-            "ans2",
+            "Netflix and chill?",
+            "Bet.",
+            "Hulu and lounge?",
             "ans3",
-            "ans4",
+            "I have a headache.",
             1,0,-1,0,
-            0,
-            7000
+            1,
+            7005
         ],
         [
-            "crack open a cold one with the boys",
+            "Kappa Sig baby!",
             "ans1",
-            "ans2",
+            "Crush this Natty Light for me.",
             "ans3",
-            "ans4",
+            "Gotta go, I left the microwave on...",
             1,0,-1,0,
-            0,
-            7000
-        ],
-        [
-            "slide into your DMs",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
-            0,
-            7000
-        ],
-        [
-            "netflix and chill",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
-            0,
-            7000
-        ],
-        [
-            "frat",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
-            0,
-            7000
+            -100,
+            7006
         ],
     ])
 )
@@ -733,7 +683,6 @@ spiky  = Character.create(
     picture_url: "https://i.imgur.com/gOmOsqH.png"
  )
 
-
  # Victoria
 victoria  = Character.create(
     name: "Victoria",
@@ -757,38 +706,25 @@ chad  = Character.create(
  
  
  ######## Gifts ########
-<<<<<<< HEAD
-Gift.create(
-    name: "Autographed photo of Justin Bieber",
-    price: 10,
-    favoriteValue: 5,
-=======
  Gift.create(
     name: "Autographed photo of Justin Bieber",
     price: 10,
     favoriteValue: 5,
     picture_url: "https://i.imgur.com/4tvZOjz.png"
->>>>>>> 1ece65633a49a45535032ae17b5c10922a210484
 )
 
 Gift.create(
     name: "Antique Spanish coin",
     price: 10,
     favoriteValue: 5,
-<<<<<<< HEAD
-=======
     picture_url: "https://i.imgur.com/H4OFGBt.png"
->>>>>>> 1ece65633a49a45535032ae17b5c10922a210484
 )
 
 Gift.create(
     name: "Pearl and amethyst pendant",
     price: 10,
     favoriteValue: 5,
-<<<<<<< HEAD
-=======
     picture_url: "https://i.imgur.com/oKCwDsc.png"
->>>>>>> 1ece65633a49a45535032ae17b5c10922a210484
 )
 
 Gift.create(
@@ -802,30 +738,21 @@ Gift.create(
     name: "Gibson guitar",
     price: 10,
     favoriteValue: 5,
-<<<<<<< HEAD
-=======
     picture_url: "https://i.imgur.com/KL81Ok5.png"
->>>>>>> 1ece65633a49a45535032ae17b5c10922a210484
 )
 
 Gift.create(
     name: "Ferrari",
     price: 10,
     favoriteValue: 5,
-<<<<<<< HEAD
-=======
     picture_url: ""
->>>>>>> 1ece65633a49a45535032ae17b5c10922a210484
 )
 
 Gift.create(
     name: "Shakespeare's First Folio",
     price: 10,
     favoriteValue: 5,
-<<<<<<< HEAD
-=======
     picture_url: "https://i.imgur.com/3uslQRG.png"
->>>>>>> 1ece65633a49a45535032ae17b5c10922a210484
 )
 
 
