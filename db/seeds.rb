@@ -325,7 +325,7 @@ indie = Interest.create(
             "Brad",
             "Jasper",
             "Noam Chomsky",
-            "Gotta run! Grandma's on fire!",
+            "I think my fire alarm went off, gotta run!",
             -1,0,1,0,
             3,
             3002
@@ -335,7 +335,7 @@ indie = Interest.create(
             "Ham sandwich.",
             "Avocado toast.",
             "Kale salad with prosciutto and figs.",
-            "I gotta go move my car.",
+            "Oh no I left the oven on, got to go!",
             -1,1,0,0,
             -100,
             3003
@@ -345,7 +345,7 @@ indie = Interest.create(
             "Have you tried the butternut squash soup?",
             "The aisles are too small.",
             "I prefer Wegman's.",
-            "I need to go move my laundry.",
+            "That reminds me, I have to get some groceries. Bye!",
             1,0,-1,0,
             -100,
             3004
@@ -355,7 +355,7 @@ indie = Interest.create(
             "It's a cute look.",
             "You mean mom jeans?",
             "I liked that style before it was cool.",
-            "I have to put coins in the meter.",
+            "Gotta go to Urban, bye!",
             0,-1,1,0,
             7,
             3005
@@ -407,21 +407,21 @@ rock_and_roll = Interest.create(
     favorite_gift: "Gibson guitar",
     questions: JSON.unparse([
         [
-            "question1",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
+            "Rock on dude!",
+            "Has anyone told you you look like Bruce Springsteen?",
+            "Yeah!",
+            "I'm more into counrty.",
+            "I'm gonna go now, bye.",
             1,0,-1,0,
             0,
             4000
         ],
         [
-            "question2",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
+            "I'm not God but if I were God, ¾ of you would be girls, and the rest would be pizza and beer.",
+            "Yo dude same!",
+            "I love that",
+            "That's so not PC",
+            "I have to go....",
             1,0,-1,0,
             1,
             4001
@@ -434,11 +434,11 @@ luxury = Interest.create(
     questions: JSON.unparse([
         [
             "I have been watching you for a time. You have a pleasing look about you... the sort of musculature that could make a woman swoon with desire.",
+            "Well I hope I'm making you swoon",
+            "You are very direct, I love that.",
             "Begone, thot.",
-            "ans2",
-            "ans3",
-            "Ight Imma head out.",
-            -1,0,1,0,
+            "I feel u",
+            1,0,-1,0,
             -100,
             5000
         ],
@@ -581,22 +581,52 @@ sports = Interest.create(
             "ans3",
             "I'm busy.",
             1,0,-1,0,
-            1,
+            0,
             7000
         ],
         [
-            "Does this pump make me look too swole?",
-            "I don't like your girlfriend. I think you need a new one.",
+            "Hey, I just realized this, but you look a lot like my next girlfriend.",
+            "Thank you...",
+            "I would never go out with you.",
+            "Well I could be your next one...",
+            "Your girlfriend is calling me, got to go.",
+            0,-1,1,0,
+            1,
+            7001
+        ],
+        [
+            "Swole... 'Mirin?",
+            "100%",
+            "What?",
+            "Ya Swole",
+            "Gotta run!",
+            1,0,-1,0,
+            0,
+            7000
+        ],
+        [
+            "Just got a six pack of Nattys. Wanna shotgun?",
+            "ans1",
             "ans2",
             "ans3",
-            "Ttyl.",
+            "ans4",
+            1,0,-1,0,
+            0,
+            7000
+        ],
+        [
+            "DTF",
+            "Eww... who are you?",
+            "Maybe...what does that mean?",
+            "Name the time, and the place.",
+            "Sorry I have to go meet my husband.",
             1,0,-1,0,
             -100,
             7001
         ],
         [
-            "DTF?",
-            "Excuse me?",
+            "Protein shake",
+            "ans1",
             "ans2",
             "Boy you know I got that WAP.",
             "Uh I have to go. I think my water just broke.",
@@ -635,11 +665,11 @@ sports = Interest.create(
             7005
         ],
         [
-            "Kappa Sig baby!",
-            "ans1",
-            "Crush this Natty Light for me.",
-            "ans3",
-            "Gotta go, I left the microwave on...",
+            "Brah are you in a frat?",
+            "Dela Sig for life...dap it bro",
+            "Bro, stop acting like a pledge",
+            " would never put myself through that social humiliation",
+            "Just got a phone call, got to go",
             1,0,-1,0,
             -100,
             7006
@@ -745,14 +775,14 @@ Gift.create(
     name: "Ferrari",
     price: 10,
     favoriteValue: 5,
-    picture_url: ""
+    picture_url: "https://i.imgur.com/3uslQRG.png"
 )
 
 Gift.create(
     name: "Shakespeare's First Folio",
     price: 10,
     favoriteValue: 5,
-    picture_url: "https://i.imgur.com/3uslQRG.png"
+    picture_url: "https://i.imgur.com/tajWHy8.png"
 )
 
 
