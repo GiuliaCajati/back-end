@@ -581,7 +581,7 @@ sports = Interest.create(
             "ans3",
             "I'm busy.",
             1,0,-1,0,
-            0,
+            -100,
             7000
         ],
         [
@@ -601,7 +601,7 @@ sports = Interest.create(
             "Ya Swole",
             "Gotta run!",
             1,-1,0,0,
-            0,
+            -100,
             7000
         ],
         [
@@ -611,7 +611,7 @@ sports = Interest.create(
             "I would rather have red wine.",
             "ans4",
             0,1,-1,0,
-            0,
+            -100,
             7000
         ],
         [
