@@ -448,24 +448,54 @@ liberal_arts = Interest.create(
     favorite_gift: "Shakespeare's First Folio",
     questions: JSON.unparse([
         [
-            "question1",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
+            "Want to join me for a visit to the MET today? They just opened the exhibit on “Goya’s Graphic Imagination”.",
+            "What is Goya?",
+            "Would love to, his distaste for intellectual oppression is renowned.",
+            "I would rather play Civ ",
+            "Gotta run!",
+            -1,1,-1,0,
             0,
             6000
         ],
         [
-            "question2",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
+            "Just finished the third edition of The Odyssey. The greek mythology, and fascinating themes are mind quenching.",
+            "Is that the one where Romeo kills Juliet?",
+            "Ulysses is an exemplary model of heroism",
+            "Have you read “Twilight”?",
+            "Just got a phone call, got to go!",
+            -1,1,-1,0,
             1,
             6001
+        ],
+        [
+            "What is your favorite Shakespere tragedy?",
+            "I found King Lear riveting.",
+            "Paradise lost is for sure my favorite",
+            "Poetry isn’t my thing",
+            "Gotta go read a book!",
+            1,-1,-1,0,
+            1,
+            6002
+        ],
+        [
+            "Have you finished reading that book I lent you, yet?",
+            "Dude, I don’t know you",
+            "Yes, Malcolm Gladwell is a fantastic author!",
+            "No, I had to finish season five of The Office.",
+            "No I’m going to do that now, bye.",
+            -1,1,-1,0,
+            1,
+            6003
+        ],
+        [
+            "Who's your favorite heroine in Pride and Prejudice?",
+            "Definitely Kiera Knightley",
+            "Elizabeth Bennet, her playful disposition, and idealism is admirable",
+            "Mr. Bennet is pretty cool",
+            "Gotta go get some coffee.",
+            -1,1,-1,0,
+            1,
+            6004
         ]
     ])
 )
@@ -556,14 +586,59 @@ chad  = Character.create(
  
  
  ######## Gifts ########
-popTest = Gift.create(
-    name: "PopTest",
-    price: 1,
+ Gift.create(
+    name: "Autographed photo of Justin Bieber",
+    price: 10,
     favoriteValue: 5,
+    picture_url: "https://i.imgur.com/4tvZOjz.png"
 )
 
-marineTest = Gift.create(
-    name: "MarineTest",
-    price: 2,
+Gift.create(
+    name: "Antique Spanish coin",
+    price: 10,
     favoriteValue: 5,
+    picture_url: "https://i.imgur.com/H4OFGBt.png"
+)
+
+Gift.create(
+    name: "Pearl and amethyst pendant",
+    price: 10,
+    favoriteValue: 5,
+    picture_url: "https://i.imgur.com/oKCwDsc.png"
+)
+
+Gift.create(
+    name: "Vinyl record player",
+    price: 10,
+    favoriteValue: 5,
+    picture_url: "https://i.imgur.com/03Rqr6A.png"
+)
+
+Gift.create(
+    name: "Gibson guitar",
+    price: 10,
+    favoriteValue: 5,
+    picture_url: "https://i.imgur.com/KL81Ok5.png"
+)
+
+Gift.create(
+    name: "Ferrari",
+    price: 10,
+    favoriteValue: 5,
+    picture_url: ""
+)
+
+Gift.create(
+    name: "Shakespeare's First Folio",
+    price: 10,
+    favoriteValue: 5,
+    picture_url: "https://i.imgur.com/3uslQRG.png"
+)
+
+
+Gift.create(
+    name: "Autographed Tom Brady jersey",
+    price: 10,
+    favoriteValue: 5,
+    picture_url: "https://i.imgur.com/gETTbNO.png"
 )
