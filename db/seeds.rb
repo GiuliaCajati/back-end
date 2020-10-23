@@ -620,17 +620,17 @@ sports = Interest.create(
             "What?",
             "Ya Swole",
             "Gotta run!",
-            1,0,-1,0,
+            1,-1,0,0,
             0,
             7000
         ],
         [
             "Just got a six pack of natty’s. Wanna shotgun?",
-            "ans1",
-            "ans2",
-            "ans3",
+            "No, I sat away from guns",
+            "Yeah let’s get lit!",
+            "I would rather have red wine",
             "ans4",
-            1,0,-1,0,
+            0,1,-1,0,
             0,
             7000
         ],
@@ -655,8 +655,8 @@ sports = Interest.create(
             7000
         ],
         [
-            "crack open a cold one with the boys",
-            "ans1",
+            "Crack open a cold one with the boys",
+            "Yeah, for the boys!",
             "ans2",
             "ans3",
             "ans4",
@@ -675,7 +675,7 @@ sports = Interest.create(
             7000
         ],
         [
-            "netflix and chill",
+            "Netflix and chill",
             "ans1",
             "ans2",
             "ans3",
