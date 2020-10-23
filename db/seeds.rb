@@ -14,6 +14,17 @@ Gift.destroy_all
 User.destroy_all 
 
 ######## Interests ########
+
+#ideas
+#list of pickup lines
+#quotes from euphoria
+#other bg2 char quotes
+#comb through harvest moon for any ideas
+#taylor swift lyrics
+#sus among us memes
+#chad: bro, frat, swole, mirin, dtf, brotein shake, crack open a cold one with the boys, chill, slide into DMs, tactless formulaic pickup lines
+#cpt. sparrow: jack sparrow quotes/swagger
+
 pop_culture = Interest.create(
     name: "Pop Culture",
     favorite_gift: "Autographed photo of Justin Bieber",
@@ -102,7 +113,7 @@ pop_culture = Interest.create(
             "You're like, really hot... So you agree? You think you're really hot?",
             "Yes",
             "No",
-            "What?",
+            "Yes... no... what?",
             "I can't talk right now. I'm sick.",
             0,0,0,0,
             7,
@@ -243,7 +254,7 @@ zodiac = Interest.create(
             2006
         ],
         [
-            "Who'd call himself 'Spiky?' What a dick.",
+            "Who'd call himself 'Spiky?' Kind of a dick.",
             "Probably an Aries.",
             "Only a Scorpio.",
             "A Gemini.",
@@ -321,9 +332,9 @@ indie = Interest.create(
         ],
         [
             "So what do you wanna eat?",
-            "Ham sandwich",
-            "Avocado toast",
-            "Kale salad with prosciutto and figs",
+            "Ham sandwich.",
+            "Avocado toast.",
+            "Kale salad with prosciutto and figs.",
             "ans4",
             -1,1,0,0,
             -100,
@@ -352,7 +363,7 @@ indie = Interest.create(
         [
             "I'd like a tall soy-free soy dirty chai.",
             "I'll have the same.",
-            "I'll have an iced matcha green tea latte with almond milk.",
+            "I'll have an iced matcha green tea latte with almond milk. Skim almond milk.",
             "I'll have a pumpkin spice latte.",
             "ans4",
             0,1,-1,0,
@@ -382,8 +393,8 @@ indie = Interest.create(
         [
             "I once dumped a guy because his mustache sucked.",
             "Ya ok Veronica.",
-            "D",
-            "ans3",
+            "So... should I not grow a mustache then?",
+            "Sorry for your loss.",
             "ans4",
             0,0,0,0,
             15,
@@ -419,8 +430,98 @@ rock_and_roll = Interest.create(
 )
 luxury = Interest.create(
     name: "Luxury",
-    favorite_gift: "",
+    favorite_gift: "Ferrari",
     questions: JSON.unparse([
+        [
+            "I have been watching you for a time. You have a pleasing look about you... the sort of musculature that could make a woman swoon with desire.",
+            "ans1",
+            "ans2",
+            "Begone, thot.",
+            "ans4",
+            1,0,-1,0,
+            -100,
+            5000
+        ],
+        [
+            "",
+            "ans1",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            1,
+            5001
+        ],
+        [
+            "And what do you think of Victoria, hmm? Does her sharp beauty give you singular twinges of desire?",
+            "ans1",
+            "ans2",
+            "Victoria, I've no time for your nonsense today.",
+            "ans4",
+            1,0,-1,0,
+            0,
+            5000
+        ],
+        [
+            "I have noticed the type of man that you are. Intense, determined, strong... all the qualities I have grown to like most exist in you.",
+            "ans1",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            7,
+            5000
+        ],
+        [
+            "I have toyed with your feelings unfairly, placing you down with others I have known... and you have not been like them. It was... wrong of me.",
+            "I am sick of you running hot and cold all the time. Just leave me alone and I'll be happy!",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            15,
+            5000
+        ],
+        [
+            "Oh do not look at me in such a manner. Does your manhood wilt from thought of using knowledge of the erotic to survive in this world? Is it so terrible?",
+            "ans1",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            -100,
+            5000
+        ],
+        [
+            "Tell me... has there been anyone special to you? A thief of your heart?",
+            "Never",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            -100,
+            5000
+        ],
+        [
+            "Your heart is heavy with lust and burning desire... but shall it be mine or another's?",
+            "There is only you, Victoria.",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            3,
+            5000
+        ],
+        [
+            "Do you ever entertain the notion of marriage? To commit to one person in all matters? It seems a bizarre internment to me.",
+            "I myself hope to settle into a home that doesn't change by the day.",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            7,
+            5000
+        ],
         [
             "question1",
             "ans1",
@@ -431,16 +532,6 @@ luxury = Interest.create(
             0,
             5000
         ],
-        [
-            "question2",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
-            1,
-            5001
-        ]
     ])
 )
 liberal_arts = Interest.create(
@@ -474,7 +565,7 @@ sports = Interest.create(
     favorite_gift: "Autographed Tom Brady jersey",
     questions: JSON.unparse([
         [
-            "question1",
+            "I lost my phone number. Can I have yours?",
             "ans1",
             "ans2",
             "ans3",
@@ -484,7 +575,7 @@ sports = Interest.create(
             7000
         ],
         [
-            "question2",
+            "Hey, I just realized this, but you look a lot like my next girlfriend.",
             "ans1",
             "ans2",
             "ans3",
@@ -492,7 +583,87 @@ sports = Interest.create(
             1,0,-1,0,
             1,
             7001
-        ]
+        ],
+        [
+            "swole",
+            "ans1",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            0,
+            7000
+        ],
+        [
+            "mirin",
+            "ans1",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            0,
+            7000
+        ],
+        [
+            "dtf",
+            "ans1",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            0,
+            7000
+        ],
+        [
+            "brotein shake",
+            "ans1",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            0,
+            7000
+        ],
+        [
+            "crack open a cold one with the boys",
+            "ans1",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            0,
+            7000
+        ],
+        [
+            "slide into your DMs",
+            "ans1",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            0,
+            7000
+        ],
+        [
+            "netflix and chill",
+            "ans1",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            0,
+            7000
+        ],
+        [
+            "frat",
+            "ans1",
+            "ans2",
+            "ans3",
+            "ans4",
+            1,0,-1,0,
+            0,
+            7000
+        ],
     ])
 )
 
@@ -556,14 +727,51 @@ chad  = Character.create(
  
  
  ######## Gifts ########
-popTest = Gift.create(
-    name: "PopTest",
-    price: 1,
+Gift.create(
+    name: "Autographed photo of Justin Bieber",
+    price: 10,
     favoriteValue: 5,
 )
 
-marineTest = Gift.create(
-    name: "MarineTest",
-    price: 2,
+Gift.create(
+    name: "Antique Spanish coin",
+    price: 10,
+    favoriteValue: 5,
+)
+
+Gift.create(
+    name: "Pearl and amethyst pendant",
+    price: 10,
+    favoriteValue: 5,
+)
+
+Gift.create(
+    name: "Vinyl record player",
+    price: 10,
+    favoriteValue: 5,
+)
+
+Gift.create(
+    name: "Gibson guitar",
+    price: 10,
+    favoriteValue: 5,
+)
+
+Gift.create(
+    name: "Ferrari",
+    price: 10,
+    favoriteValue: 5,
+)
+
+Gift.create(
+    name: "Shakespeare's First Folio",
+    price: 10,
+    favoriteValue: 5,
+)
+
+
+Gift.create(
+    name: "Autographed Tom Brady jersey",
+    price: 10,
     favoriteValue: 5,
 )
