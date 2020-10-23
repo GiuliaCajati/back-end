@@ -14,17 +14,6 @@ Gift.destroy_all
 User.destroy_all 
 
 ######## Interests ########
-
-#ideas
-#list of pickup lines
-#quotes from euphoria
-#other bg2 char quotes
-#comb through harvest moon for any ideas
-#taylor swift lyrics
-#sus among us memes
-#chad: bro, frat, swole, mirin, dtf, brotein shake, crack open a cold one with the boys, chill, slide into DMs, tactless formulaic pickup lines
-#cpt. sparrow: jack sparrow quotes/swagger
-
 pop_culture = Interest.create(
     name: "Pop Culture",
     favorite_gift: "Autographed photo of Justin Bieber",
@@ -167,7 +156,7 @@ rum = Interest.create(
             1001
         ],
         [
-            "I just dropped me phone off the bridge... At least it was in an otterbox...",
+            "I dropped me phone off the bridge... At least it was in an otterbox...",
             "Let's go a-plunderin' and loot you a new one.",
             "Alas, 'tis down with Davy Jones' Locker now...",
             "Don't walk the plank after it... the water here is gross.",
@@ -410,7 +399,7 @@ rock_and_roll = Interest.create(
             "Rock on dude!",
             "Has anyone told you you look like Bruce Springsteen?",
             "Yeah!",
-            "I'm more into counrty.",
+            "I'm more into country.",
             "I'm gonna go now, bye.",
             1,0,-1,0,
             0,
@@ -419,10 +408,10 @@ rock_and_roll = Interest.create(
         [
             "I'm not God but if I were God, ¾ of you would be girls, and the rest would be pizza and beer.",
             "Yo dude same!",
-            "I love that",
-            "That's so not PC",
-            "I have to go....",
-            1,0,-1,0,
+            "I love that.",
+            "That's so not PC.",
+            "I have to go...",
+            0,1,-1,0,
             1,
             4001
         ]
@@ -434,83 +423,93 @@ luxury = Interest.create(
     questions: JSON.unparse([
         [
             "I have been watching you for a time. You have a pleasing look about you... the sort of musculature that could make a woman swoon with desire.",
-            "Well I hope I'm making you swoon",
-            "You are very direct, I love that.",
+            "Well I hope I'm making you swoon...",
+            "You are very direct. I like that.",
             "Begone, thot.",
-            "I feel u",
-            1,0,-1,0,
+            "I really must go.",
+            1,1,-1,0,
             -100,
             5000
         ],
         [
             "And what do you think of Victoria, hmm? Does her sharp beauty give you singular twinges of desire?",
-            "ans1",
-            "ans2",
-            "Victoria, I've no time for your nonsense today.",
+            "Sometimes two people in the universe who aren't meant for each other find each other.",
+            "I'd like to bite that lip.",
+            "You're abusive, psychopathic. Most of the time I really hate the way you make me feel.",
             "I gotta meet with a client.",
-            1,0,-1,0,
+            -1,1,0,0,
             1,
             5001
         ],
         [
             "I have noticed the type of man that you are. Intense, determined, strong... all the qualities I have grown to like most exist in you.",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
-            7,
+            "Thanks. No one's ever said that before...",
+            "Never trust a man who can dance.",
+            "Victoria, I've no time for your nonsense today.",
+            "What did you say? It's too loud here.",
+            0,1,-1,0,
+            3,
             5002
+        ],
+        [
+            "I have decided you are weak and cowardly. Do not stand so close to me.",
+            "Was it something I said?",
+            "Was it something I did?",
+            "Ah, you must be the tsundere character.",
+            "Excuse me, my Tesla is almost finished charging.",
+            -1,-1,-1,0,
+            3,
+            5003
         ],
         [
             "I have toyed with your feelings unfairly, placing you down with others I have known... and you have not been like them. It was... wrong of me.",
             "I am sick of you running hot and cold all the time. Just leave me alone and I'll be happy!",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
-            15,
-            5003
-        ],
-        [
-            "Oh do not look at me in such a manner. Does your manhood wilt from thought of using knowledge of the erotic to survive in this world? Is it so terrible?",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
-            1,
+            "You beguile me, Victoria. Completely overwhelm me. I feel like Icarus flying too close to the Sun.",
+            "You know, I mean, like, is one of us gonna get hurt? Yeah. Probably. But I'll do my best to make sure that it's me.",
+            "I have to walk my dog.",
+            -1,1,0,0,
+            10,
             5004
         ],
         [
-            "Tell me... has there been anyone special to you? A thief of your heart?",
-            "ans1",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
+            "Oh do not look at me in such a manner. Does your manhood wilt from thought of using knowledge of the erotic to survive in this world? Is it so terrible?",
+            "Not at all. I support benefits for sex workers.",
+            "Are you smirking at me, Victoria? Pompous ass.",
+            "I don't hold your past against you. Even Jezebel can change for the better.",
+            "I have to get ready for church.",
+            0,1,-1,0,
             -100,
             5005
         ],
         [
-            "Your heart is heavy with lust and burning desire... but shall it be mine or another's?",
-            "There is only you, Victoria.",
-            "ans2",
-            "ans3",
-            "ans4",
-            1,0,-1,0,
-            1,
+            "Tell me... has there been anyone special to you? A thief of your heart?",
+            "Whenever I feel good I think it will last forever. But it’s not like that.",
+            "Ya Britney is smokin.",
+            "There may be someone... I haven't decided yet.",
+            "I'm late for confession, bye.",
+            0,-1,1,0,
+            -100,
             5006
+        ],
+        [
+            "Your heart is heavy with lust and burning desire... but shall it be mine or another's?",
+            "You're Eve in the Garden of Eden, offering the apple. I cannot resist.",
+            "I need a good girl.",
+            "Oh Victoria, what am I going to do with you?",
+            "I have to return some video tapes.",
+            1,-1,0,0,
+            1,
+            5007
         ],
         [
             "Do you ever entertain the notion of marriage? To commit to one person in all matters? It seems a bizarre internment to me.",
             "I myself hope to settle into a home that doesn't change by the day.",
-            "ans2",
-            "ans3",
-            "ans4",
+            "Well, you have to kiss a lot of frogs before you find your prince.",
+            "It's not for me. I could never settle for one woman.",
+            "Excuse me, I must find the restroom.",
             1,0,-1,0,
             3,
-            5007
+            5008
         ],
     ])
 )
@@ -519,7 +518,7 @@ liberal_arts = Interest.create(
     favorite_gift: "Shakespeare's First Folio",
     questions: JSON.unparse([
         [
-            "Want to join me for a visit to the MET today? They just opened the exhibit on “Goya’s Graphic Imagination”.",
+            "Want to join me for a visit to the MET today? They just opened the exhibit on “Goya’s Graphic Imagination.”",
             "What is Goya?",
             "Would love to, his distaste for intellectual oppression is renowned.",
             "I would rather play Civ.",
@@ -532,7 +531,7 @@ liberal_arts = Interest.create(
             "Just finished the third edition of The Odyssey. The greek mythology, and fascinating themes are mind quenching.",
             "Is that the one where Romeo kills Juliet?",
             "Ulysses is an exemplary model of heroism.",
-            "Have you read “Twilight”?",
+            "Have you read “Twilight?”",
             "Just got a phone call, got to go!",
             -1,1,-1,0,
             1,
@@ -577,8 +576,8 @@ sports = Interest.create(
         [
             "I lost my phone number. Can I have yours?",
             "Here's my number... so call me, maybe.",
-            "ans2",
-            "ans3",
+            "I love cheesy pickup lines.",
+            "Ugh.",
             "I'm busy.",
             1,0,-1,0,
             -100,
@@ -598,51 +597,41 @@ sports = Interest.create(
             "Swole... 'Mirin?",
             "100%",
             "What?",
-            "Ya Swole",
+            "Ya swole.",
             "Gotta run!",
-            1,-1,0,0,
+            1,-1,1,0,
             -100,
-            7000
+            7002
         ],
         [
-            "Just got a six pack of natty’s. Wanna shotgun?",
+            "Just got a six pack of Nattys. Wanna shotgun?",
             "No, I stay away from guns.",
             "Yeah let’s get lit!",
             "I would rather have red wine.",
-            "ans4",
+            "Excuse me.",
             0,1,-1,0,
             -100,
-            7000
+            7003
         ],
         [
             "DTF",
             "Eww... who are you?",
-            "Maybe...what does that mean?",
-            "Name the time, and the place.",
+            "Maybe... what does that mean?",
+            "Boy you know I got that WAP. Name the time and the place.",
             "Sorry I have to go meet my husband.",
-            1,0,-1,0,
+            -1,0,1,0,
             -100,
-            7001
+            7004
         ],
         [
-            "Protein shake",
-            "ans1",
-            "ans2",
-            "Boy you know I got that WAP.",
-            "Uh I have to go. I think my water just broke.",
-            0,-1,1,0,
-            1,
-            7002
-        ],
-        [
-            "Crack open a cold one with the boys",
+            "Crack open a cold one with the boys.",
             "Yeah, for the boys!",
-            "ans2",
-            "ans3",
-            "I have to go... it's too cold outside...",
-            -1,1,0,0,
-            -100,
-            7003
+            "Okay let's watch the game.",
+            "For the watch.",
+            "I have to go... it's too cold today...",
+            0,1,-1,0,
+            1,
+            7005
         ],
         [
             "Lemme slide into your DMs.",
@@ -652,27 +641,27 @@ sports = Interest.create(
             "I'm late for a boulangerie appointment.",
             1,0,-1,0,
             1,
-            7004
+            7006
         ],
         [
             "Netflix and chill?",
             "Bet.",
             "Hulu and lounge?",
-            "ans3",
+            "I didn't know people actually said that in real life.",
             "I have a headache.",
             1,0,-1,0,
             1,
-            7005
+            7007
         ],
         [
-            "Brah are you in a frat?",
-            "Dela Sig for life...dap it bro",
-            "Bro, stop acting like a pledge",
-            " would never put myself through that social humiliation",
-            "Just got a phone call, got to go",
+            "Brah do you do Greek?",
+            "Delta Sig for life... dap it bro.",
+            "Bro, stop acting like a pledge.",
+            "I would never put myself through that social humiliation.",
+            "Gotta go! Grandma's on fire!",
             1,0,-1,0,
             -100,
-            7006
+            7008
         ],
     ])
 )
