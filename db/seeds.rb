@@ -625,7 +625,7 @@ Gift.create(
     name: "Ferrari",
     price: 10,
     favoriteValue: 5,
-    picture_url: ""
+    picture_url: "https://i.imgur.com/3uslQRG.png"
 )
 
 Gift.create(
