@@ -104,7 +104,7 @@ pop_culture = Interest.create(
             "She's a homeschooled freak who's a less hot version of you.",
             "She's totally rich because her dad invented Toaster Streudels.",
             "I have this theory that if you cut off all her hair, she'd look like a British man.",
-            "I can't talk right now. I'm sick.",
+            "I need to go move my laundry.",
             0,-1,1,0,
             1,
             0007
@@ -114,7 +114,7 @@ pop_culture = Interest.create(
             "Yes",
             "No",
             "Yes... no... what?",
-            "I can't talk right now. I'm sick.",
+            "I gotta move my car.",
             0,0,0,0,
             7,
             0010
@@ -124,7 +124,7 @@ pop_culture = Interest.create(
             "Because you're hot.",
             "Everything I know about you only makes me want to learn, see and do more.",
             "Bitch bye.",
-            "I can't talk right now. I'm sick.",
+            "I have to go put coins in the meter.",
             1,0,-20,0,
             7,
             0011
@@ -278,7 +278,7 @@ zodiac = Interest.create(
             "He's a Leo. Real sensitive.",
             "He's a Sagittarius. Never finishes what he starts.",
             "He's an Aries. So impulsive.",
-            "Uhh Imma go ask him.",
+            "Uhh I'mma go find out.",
             -1,1,0,0,
             7,
             2009
@@ -606,9 +606,9 @@ sports = Interest.create(
         ],
         [
             "Just got a six pack of natty’s. Wanna shotgun?",
-            "No, I sat away from guns",
+            "No, I stay away from guns.",
             "Yeah let’s get lit!",
-            "I would rather have red wine",
+            "I would rather have red wine.",
             "ans4",
             0,1,-1,0,
             0,
