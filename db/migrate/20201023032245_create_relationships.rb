@@ -3,7 +3,7 @@ class CreateRelationships < ActiveRecord::Migration[6.0]
     create_table :relationships do |t|
       t.references :user, null: false, foreign_key: true
       t.references :character, null: false, foreign_key: true
-      t.string :level
+      t.integer :level
 
       t.timestamps
     end

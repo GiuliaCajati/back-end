@@ -10,7 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_23_032244) do
+ActiveRecord::Schema.define(version: 2020_10_23_032245) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "characters", force: :cascade do |t|
     t.string "name"
@@ -36,8 +39,8 @@ ActiveRecord::Schema.define(version: 2020_10_23_032244) do
   end
 
   create_table "relationships", force: :cascade do |t|
-    t.integer "user_id", null: false
-    t.integer "character_id", null: false
+    t.bigint "user_id", null: false
+    t.bigint "character_id", null: false
     t.integer "level"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -46,8 +49,8 @@ ActiveRecord::Schema.define(version: 2020_10_23_032244) do
   end
 
   create_table "user_gifts", force: :cascade do |t|
-    t.integer "user_id", null: false
-    t.integer "gift_id", null: false
+    t.bigint "user_id", null: false
+    t.bigint "gift_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["gift_id"], name: "index_user_gifts_on_gift_id"
