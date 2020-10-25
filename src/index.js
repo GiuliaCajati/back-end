@@ -1,4 +1,5 @@
-const URL = "http://localhost:3000/"
+// const URL = "http://localhost:3000/"
+const URL = "https://fetch-a-date.herokuapp.com/"
 
 let body
 let main
