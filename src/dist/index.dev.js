@@ -1,7 +1,6 @@
 "use strict";
 
-// const URL = "http://localhost:3000/"
-var URL = "https://fetch-a-date.herokuapp.com/";
+var URL = "http://localhost:3000/";
 var body;
 var main;
 var navBar;
