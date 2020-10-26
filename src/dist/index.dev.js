@@ -1,6 +1,7 @@
 "use strict";
 
-var URL = "http://localhost:3000/";
+var URL = "http://localhost:3000/"; // const URL = "https://guarded-bayou-76703.herokuapp.com/"
+
 var body;
 var main;
 var navBar;
