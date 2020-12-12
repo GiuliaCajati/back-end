@@ -9,7 +9,7 @@ class User < ApplicationRecord
     validates :name, uniqueness: true
     validates :name, length: {maximum: 15} 
 
-    validates :picture_url, presence: true
+    # validates :picture_url, presence: true
 
     
 end
